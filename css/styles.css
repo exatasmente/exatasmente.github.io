@@ -14,13 +14,10 @@ a:hover {
 
 .notification {
     height: 100%;
-    padding: 5%;
+    padding: 6%;
   }
-  
-  .card {
-    height: 100%;
-    padding: 5%;
-  }
-  .card-footer{
-      top: 100%;
-  }
+
+ .card{
+     height: 100%;
+     padding: 2%;
+ }

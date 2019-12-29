@@ -46,7 +46,7 @@
               <h2>Desenvolvedor </h2>
               <div id="typed-strings">
                 <p>Front-end</p>
-                <p>Back-end</p> 
+                <p>Back-end</p>
                 <p>Web</p>
                 <p>Mobile</p>
                 <p>Agil</p>
@@ -169,7 +169,7 @@
           <div class="notification is-light">
             <span class="icon"><i class="fas fa-3x fa-globe "></i></span>
             <h2 class="subtitle is-4">Desenvolvimento</h2>
-            <p class="  has-text-center">
+            <p class="has-text-center">
               Criação de sites, aplicações web e mobile, desenvolvimento de API's e
               integração com sistemas existentes.
             </p>
@@ -204,7 +204,7 @@
 
     </div>
     <div class="hero-body">
-      <div class="columns is-centered">
+      <div class="columns is-centered  is-variable ">
         <div class="column ">
           <div class="card is-light" style="border-radius: 1%;">
             <div class="card-content">
@@ -224,6 +224,20 @@
                 Aplicação Mobile para android, para compra e venda de produtos amazônicos,
                 onde o produtor tem controle do seu catálogo e das transações de compra e venda dos seus produtos.
               </p>
+            </div>
+            <div class="field is-grouped is-grouped-multiline is-grouped-centered">
+              <div class="control">
+                <div class="tags has-addons is-centered">
+                  <span class="tag is-dark ">Status</span>
+                  <span class="tag is-black">Descontinuado</span>
+                </div>
+              </div>
+              <div class="control">
+                <div class="tags has-addons is-centered">
+                  <span class="tag is-dark ">Ano</span>
+                  <span class="tag is-info">2017</span>
+                </div>
+              </div>
             </div>
 
           </div>
@@ -246,6 +260,20 @@
                 para o plugin Paid Membership Pro.
               </p>
             </div>
+            <div class="field is-grouped is-grouped-multiline is-grouped-centered">
+              <div class="control">
+                <div class="tags has-addons is-centered">
+                  <span class="tag is-dark ">Status</span>
+                  <span class="tag is-primary">Em Teste</span>
+                </div>
+              </div>
+              <div class="control">
+                <div class="tags has-addons is-centered">
+                  <span class="tag is-dark ">Ano</span>
+                  <span class="tag is-info">2018</span>
+                </div>
+              </div>
+            </div>
           </div>
 
 
@@ -254,17 +282,31 @@
           <div class="card is-light" style="border-radius: 1%;">
             <div class="card-content">
               <p class="title">
-               Recrutalentos
+                Recrutalentos
               </p>
               <p class="subtitle is-6">
                 <span class="tag is-warning is-small">Python</span>
                 <span class="tag is-danger is-small">Web2Py</span>
-                <span class="tag is-primary is-small">Postgree-SQL</span>
+                <span class="tag is-primary is-small">Postgre-SQL</span>
               </p>
 
               <p class="has-text-center">
                 Sistema de RH para recrutamento e seleções, utilizando de aprendizagem de máquina.
               </p>
+            </div>
+            <div class="field is-grouped is-grouped-multiline is-grouped-centered">
+              <div class="control">
+                <div class="tags has-addons is-centered">
+                  <span class="tag is-dark ">Status</span>
+                  <span class="tag is-warning">Em Desenvolvimento</span>
+                </div>
+              </div>
+              <div class="control">
+                <div class="tags has-addons is-centered">
+                  <span class="tag is-dark ">Ano</span>
+                  <span class="tag is-info">2019</span>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -298,10 +340,12 @@
 
 </body>
 <script>
-  var sr = ScrollReveal({reset:true});
+  var sr = ScrollReveal({
+    reset: true
+  });
   var typed = new Typed('#txt', {
     stringsElement: '#typed-strings',
-    
+
     typeSpeed: 100,
     loop: true,
     backSpeed: 50,
@@ -310,18 +354,39 @@
   });
   typed.start();
 
-  sr.reveal('.title',{delay: 200,interval: 200});
-  sr.reveal('.subtitle',{delay: 300,interval: 200});
-  sr.reveal('.notification',{delay: 400,interval: 200});
-  sr.reveal('.container',{delay: 400});
-  sr.reveal('.card',{delay: 200, interval: 200});
-  sr.reveal('.has-text-center',{delay: 400, interval: 200});
-  sr.reveal('.has-text-justified',{delay:400});
-  sr.reveal('.icon',{delay:300,interval: 200});
-  sr.reveal('.tag', {delay:300});
-  
-  
-
+  sr.reveal('.title', {
+    delay: 200,
+    interval: 200
+  });
+  sr.reveal('.subtitle', {
+    delay: 300,
+    interval: 200
+  });
+  sr.reveal('.notification', {
+    delay: 400,
+    interval: 200
+  });
+  sr.reveal('.container', {
+    delay: 400
+  });
+  sr.reveal('.card', {
+    delay: 200,
+    interval: 200
+  });
+  sr.reveal('.has-text-center', {
+    delay: 400,
+    interval: 200
+  });
+  sr.reveal('.has-text-justified', {
+    delay: 400
+  });
+  sr.reveal('.icon', {
+    delay: 300,
+    interval: 200
+  });
+  sr.reveal('.tag', {
+    delay: 300
+  });
 </script>
 
 </html>
