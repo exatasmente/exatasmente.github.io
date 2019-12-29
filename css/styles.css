@@ -1,10 +1,26 @@
 
-*{
-    background-color: black !important;
+body, footer{
+    background-color: rgb(0, 15, 20) !important;
     overflow: hidden;
     
 }
 
+a:hover {
+    color:gray;
+}
 .white{
     color: white;
 }
+
+.notification {
+    height: 100%;
+    padding: 5%;
+  }
+  
+  .card {
+    height: 100%;
+    padding: 5%;
+  }
+  .card-footer{
+      top: 100%;
+  }
